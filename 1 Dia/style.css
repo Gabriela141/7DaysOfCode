@@ -1,0 +1,109 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+  background: #6e6856 url(img/fundo.jpg) no-repeat fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+
+}
+h2 {
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h3 {
+    padding: 11px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.input {
+    background-color: rgb(67, 56, 40);
+    width: 40%;
+    height: 40px;
+    border-radius:10px ;
+    padding: 5px;
+    font-size: 20px;
+    
+  
+}
+    
+
+.input_p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid red;
+}
+.input_p img {
+   cursor: pointer;
+}
+.chec {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    color: rgb(225, 211, 211);
+    padding: 10px;
+}
+
+
+
+.core  {
+    
+    display: block;
+    
+}
+.coracao{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+.estrela {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.linha {
+    display: flex;
+}
+.edit {
+    background: #a99d86;
+    border: 3px solid rgb(49,34,22,0.5);
+    height: 170px;
+    width: 75.33%;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+}
+
+
+img {
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 19px;
+}
+
+.sinopse {
+    padding: 10px;
+    margin-left: 13px;
+}
+
+
+
+
